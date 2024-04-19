@@ -33,7 +33,7 @@ def process(cloth_image, cloth_mask_image, prompt, a_prompt, n_prompt, num_sampl
 block = gr.Blocks().queue()
 with block:
     with gr.Row():
-        gr.Markdown("ใส่รูปเสื้อที่ต้องการ แล้วกด RUN")
+        gr.Markdown("Up hình quần áo mà bạn muốn thay và bấm RUN")
     with gr.Row():
         with gr.Column():
             cloth_image = gr.Image(label="cloth Image", type="pil")
